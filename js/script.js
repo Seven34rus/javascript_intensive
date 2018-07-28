@@ -23,9 +23,12 @@ function myFirstApp (name, age){
 	}
 checkAge();
 
-
-
+let num = prompt('какое число возвести в квадрат ?');
+function clacPow (num) {
+	console.log('Квадрат числа: ' + num * num)
+}
+clacPow(num);
 
 
 }
-myFirstApp();
+myFirstApp("Mushketov", 20);
